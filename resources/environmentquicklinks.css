@@ -1,0 +1,35 @@
+.envquicklinks-bar {
+    background-color: #282C34;
+    text-align: right;
+    z-index: 9;
+    padding: 0px 12px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.envquicklinks-bar a.envquicklinks-bar__link,
+.envquicklinks-bar__toggle {
+    color: #ffffff;
+    font-size: 12px;
+    background-color: #282C34;
+    padding: 10px 8px;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 400;
+    text-decoration: underline;
+    display: inline-block;
+    text-decoration-skip: ink;
+}
+
+.envquicklinks-bar__toggle {
+    text-decoration: none;
+    letter-spacing: -3px;
+}
+
+.envquicklinks-bar.is--hidden a.envquicklinks-bar__link {
+    display: none;
+}
+
+.envquiclinks-bar.is--hidden a.envquicklinks-bar__toggle {
+    display: inline-block;
+}
